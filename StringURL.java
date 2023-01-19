@@ -25,7 +25,7 @@ class Handler implements URLHandler {
                     output += list.get(i) + ", ";
                 }
             }
-            return output;
+            return output.substring(0 , output.length() - 2);
         }
         return "404 Not Found!";
     }
