@@ -1,9 +1,9 @@
+
 import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
-    // The one bit of state on the server: a list that will be manipulated by
-    // various requests.
+
     String list = "";
 
     public String handleRequest(URI url) {
